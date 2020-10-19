@@ -1,0 +1,140 @@
+<!Doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+<style>
+.container-fluid{margin: 0 0; padding: 0 0;}
+.custom-img{width: 50px;}
+.custom-btn{margin-left: 10px;}
+.custom-foot{text-align: center; background-color: #333;color: #fff; padding: 20px 0px;}
+</style>
+<body>
+<div class="container-fluid">
+    <!-- COVID Alert -->
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>COVID-19 Information!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- End -->
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="img/evsulogo.png" alt="LOGO" class="img-fluid custom-img"></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="link1.html">Link1<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link3</a>
+                </li>
+                <!-- Dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!-- btn login /signup -->
+            <button type="button" class="btn btn-primary custom-btn">Login</button>
+            <button type="button" class="btn btn-warning custom-btn">SignUp</button>
+        </div>
+    </nav>
+    <!-- end -->
+    <!--  -->
+    <!-- Carousel / Image Slider -->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/New/120133372_9asdasdasdasdasdasdasdasdasdasdasdasdasd3_n.png" class="d-block w-100" alt="Laptop Model #1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Laptop Model #1</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/New/120276406_1008230929652157_344469419435664705_n.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Laptop Model #2</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/New/120162891_796744321079896_165812801295659_n.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Laptop Model #3</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    <!-- End -->
+    <!-- Content -->
+    <div class="row">
+        <div class="col">
+            <img src="img/Models/117112820_184488263085175_2914517910283516840_n.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="img/Models/117444691_184488286418506_1794830947128162531_n.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="img/Models/external-content.duckduckgo.com.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+    <!-- End -->
+    <!-- Some useful information -->
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, to Link1</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    <!-- End -->
+    <!-- Footer -->
+    <div class="row-lg custom-foot">
+        <div class="col-lg">&copy; Copy Right 2020. Alright Reserved 2020. - Design by: Alex</div>
+    </div>
+    <!-- End -->
+</div>
+</body>
+</html>
